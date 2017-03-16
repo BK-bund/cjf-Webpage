@@ -1,0 +1,30 @@
+/*
+Theme Name:   cjf kaakeli
+Theme URI:    https://github.com/BK-bund/cjf-Webpage
+Description:  A theme for the cjf Webpage based on kaakeli
+Author:       Ben Schumacher
+Author URI:   https://github.com/BenSchumacher-cjf
+Template:     kaakeli
+License:      Apache License
+License URI:  https://www.apache.org/licenses/
+Version:      0.1
+*/
+
+
+@media (max-width: 767px) {
+  .row>.karten-container:nth-child(even) {
+    background-color: #d9d9d9;
+  }
+  
+  .row>.karten-container:nth-child(odd)>.reiter-wrapper-home>.reiter-weis {
+    border-bottom: 30px solid #d9d9d9; 
+  }
+
+  .row>.karten-container:nth-child(odd)>.reiter-wrapper-home>.reiter-weis > * {
+    background-color: #d9d9d9;
+  }
+
+  .row>.karten-container:nth-child(odd)>.karten-wrapper {
+    background-color: #d9d9d9;
+  }
+}
